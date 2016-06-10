@@ -3,16 +3,26 @@ package fr.sgcib.test;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NBConverter {
 
+/**
+ * Conversion nombre 1 à 100 en string suivants les regles SGCIB
+ * @author Mohand
+ * @date 09/06/2016
+ */
+public class NBConverter {
+	/** Constantes du programme */
 	final static String C_FOO ="Foo";
 	final static String C_BAR ="Bar";
 	final static String C_QIX ="Qix";
+	
+	
 	
 	public static void main(String[] args) {
 		
 		//Traitement des diviseurs
 		Map<Integer, StringBuffer> strNumberMap = diviseurs ();
+		
+		//Traitement des contenus
 		contient (strNumberMap);
 
 		//Affichage du résultat

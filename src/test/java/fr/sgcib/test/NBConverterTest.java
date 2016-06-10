@@ -5,7 +5,7 @@ import java.util.Map;
 import org.junit.Test;
 
 /**
- * Classe testant les deux conversion implémentées : Json/xml
+ * Classe testant la conversion des nombres 1 à 100 suivant les regles des diviseurs et contenu
  * 
  * @author Mohand
  *
@@ -13,7 +13,7 @@ import org.junit.Test;
 public class NBConverterTest {
 
 	/**
-	 * Test conversion resultat conversion des nombres
+	 * Verification si conversion est ok 
 	 */
 	@Test
 	public void buildTest(){
